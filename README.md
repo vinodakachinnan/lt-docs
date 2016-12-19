@@ -1,2 +1,3 @@
-# lt-docs
-Documentation for Living Traditions
+# Living Traditioins Documentation
+Detailed documentatioin of the project.
+Visit the Development here.
