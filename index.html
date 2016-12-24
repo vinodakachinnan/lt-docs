@@ -1,1 +1,294 @@
-<p>Hello world !</p>
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Living Traditions Documentation</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body>
+
+
+        <header id="header" class="header">
+          <div class="row">
+            <div class="medium-11 large-7 large-push-4 columns">
+              <h1 class="text-right"><strong>Living Traditions: </strong>  <span class="subheader">Documentation</span></h1>
+            </div>
+          </div>
+        </header>
+
+        <div data-sticky-container>
+          <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
+            <div class="top-bar">
+              <div class="top-bar-title">
+                <h6><span class="subheader">Living Traditions:</span> <strong>Documentation</strong></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row" id="content">
+          <div class="medium-3 large-3 columns large-push-1 hide-for-small-only" data-sticky-container>
+            <div class="sticky" data-sticky data-margin-top="10">
+              <ul class="vertical menu" data-magellan data-animation-duration="800">
+                <li><a href="#About">About</a></li>
+                <li><a href="#API">API</a></li>
+                <li><a href="#Framework">Framework</a></li>
+                <li><a href="#Animation">Animation</a></li>
+                <li><a href="#Colorbox">Colorbox</a></li>
+                <li><a href="#Logo">Logo</a></li>
+                <li><a href="#Color">Color</a></li>
+                <li><a href="#Typography">Typography</a></li>
+                <li><a href="#Wireframe">Wireframe</a></li>
+                <li><a href="#Reference">Reference</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="small-12 medium-7 medium-push-1 large-7 large-push-1 columns">
+            <div class="sections content">
+
+              <section id="About" data-magellan-target="About">
+                <p class="lead">Digital archive is only a pause between interfaces. The immediate interface before the web interface are the APIs created after the contents in the archive. This is still under process. So the web interface here goes partially hypothetical in the absence of a public API.</p>
+                <div class="orbit" role="region" aria-label="Archive" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+                  <ul class="orbit-container">
+                    <li class="is-active orbit-slide">
+                      <img class="orbit-image" src="assets/img/archive.jpg" alt="Archive">
+                      <figcaption class="orbit-caption">Archive</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/server.png" alt="Server">
+                      <figcaption class="orbit-caption">Server</figcaption>
+                    </li>
+                  </ul>
+                </div>
+                <h6><small>A cross look at the digital and traditional archives.</small></h6>
+                <p>My only assets were the experience of composition held in the chaotic studio process as an artist and the newbie of technology. A <i>problem</i> for me is not a solution seeking venture and it is definitely not the <i>nature</i> of a linear process of <i>programing</i>. The conflict of these two processes needed to discover a momentum that is already registered in the history of my creative process. A revisit to some of my works identified this in a new perspective.</p>
+                <div class="orbit" role="region" aria-label="Works" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;" data-auto-play="false">
+                  <ul class="orbit-container">
+                    <li class="is-active orbit-slide">
+                      <img class="orbit-image" src="assets/img/toandfro.jpg" alt="Server">
+                      <figcaption class="orbit-caption">toandfro</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/postcards.png" alt="Server">
+                      <figcaption class="orbit-caption">Postcards</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/eldrs.png" alt="Archive">
+                      <figcaption class="orbit-caption">elders</figcaption>
+                    </li>
+                  </ul>
+                  <nav class="orbit-bullets">
+                    <button class="is-active" data-slide="0"><span class="show-for-sr">elders</span><span class="show-for-sr">Current Slide</span></button>
+                    <button data-slide="1"><span class="show-for-sr">Postcards</span></button>
+                    <button data-slide="2"><span class="show-for-sr">toandfro</span></button>
+                  </nav>
+                </div>
+                <p>Project at the beginning was triggered by the photographer's contact sheets. This has the potential to convert elements on the filmstrip to <a href="https://en.wikipedia.org/wiki/User_interface">user interface(ui)</a>.</p>
+                <img src="assets/img/trigger.png" alt="">
+                <h6><small>Detail of Jyoti Bhatt's contact sheet from AAA.</small></h6>
+
+                <p>But the architecture of web layout is already changing and it is no more a direct translation of static layout models. The columns and the new <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flexbox</a> are addressing the responsive layout. One of the effective ways to put "Living Tradtions" series is into a grid layout. This also fall back to the <i>contact sheet</i> appearance. The content drives the layout. Few examples of of diplay which followed grid system is given below:</p>
+                <div class="orbit" role="region" aria-label="Grids" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;" data-auto-play="false">
+                  <ul class="orbit-container">
+                    <li class="is-active orbit-slide">
+                      <img class="orbit-image" src="assets/img/atlas.jpg" alt="Atlas">
+                      <figcaption class="orbit-caption">Gerhard Richter, Atlas, 1962–ongoing, found photographs, 802 sheets (as of 2013)</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/Nazis.jpg" alt="The Nazis">
+                      <figcaption class="orbit-caption">Piotr Uklański, The Nazis, 1998, 164 chromogenic photographs, 14x10 in each</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/Black.jpg" alt="Black Drawings">
+                      <figcaption class="orbit-caption">Marlene Dumas, Black Drawings, 1991-92, 112 mixed media on paper pieces, 25x18cm each</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/Jackies.jpg" alt="Jackies">
+                      <figcaption class="orbit-caption">Andy Warhol, Sixteen Jackies, 1964, acrylic and silkscreen ink on canvas, 80"x64".</figcaption>
+                    </li>
+                  </ul>
+                  <nav class="orbit-bullets">
+                    <button class="is-active" data-slide="0"><span class="show-for-sr">elders</span><span class="show-for-sr">Atlas</span></button>
+                    <button data-slide="1"><span class="show-for-sr">The Nazis</span></button>
+                    <button data-slide="2"><span class="show-for-sr">Black Drawings</span></button>
+                    <button data-slide="3"><span class="show-for-sr">Jackies</span></button>
+                  </nav>
+                </div>
+                <p>I realized there is no strict formula to design. I kept on moving from wireframes to frontend and reciprocating frequently. The design is also sensitive on colors and typography. At times they also took a central role in design. Finding a font is not a hunting rather is a process of inhabiting in the content.</p>
+                <p>Interface is designed to be device agnostic; it works with mouse, touch and motion events.</p>
+              </section>
+
+              <section id="API" data-magellan-target="API">
+                <h2><strong>API</strong></h2>
+                <div class="orbit" role="region" aria-label="API" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+                  <ul class="orbit-container">
+                    <li class="is-active orbit-slide">
+                      <img class="orbit-image" src="assets/img/api.png" alt="API">
+                      <figcaption class="orbit-caption">API</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/api-kiss.png" alt="Ivan's Childhood">
+                      <figcaption class="orbit-caption">Still from "Ivan's Childhood"</figcaption>
+                    </li>
+                  </ul>
+                </div>
+                <h6><small>The definition of API super imposed with the trench kiss in "Ivans Childhood"</small></h6>
+              </section>
+
+              <section id="Framework" data-magellan-target="Framework">
+                <h2><strong>Framework</strong></h2>
+                <img src="assets/img/f6.png" alt="">
+                <p>Although this project do not have majority of features offered by the framework, it will be helpful for development stages to overcome hurdles of coding by the common structure provided by the framework.</p>
+                <a href="http://foundation.zurb.com/sites/docs/" class="float-right large success button">Documentation</a>
+                <div class="clearfix"></div>
+              </section>
+
+              <section id="Animation" data-magellan-target="Animation">
+                <h2><strong>Animation</strong></h2>
+                <img src="assets/img/velocity.png" alt="">
+                <ul>
+                  <li><strong>CSS transitions</strong> are meant for simple interface flourishes.</li>
+                  <li><strong>jQuery's $.animate()</strong> is slow and poorly-equipped for motion design.</li>
+                  <li><strong>Velocity</strong> is a fast, feature-rich standalone alternative to jQuery's $.animate().</li>
+                </ul>
+                <a href="http://velocityjs.org/" class="large button success float-right">Velocity</a>
+                <div class="clearfix"></div>
+              </section>
+
+              <section id="Colorbox" data-magellan-target="Colorbox">
+                <img src="assets/img/colorbox.png" alt="">
+                <p>Colorbox accepts settings from an object of key/value pairs, and can be assigned to any HTML element.</p>
+                <a href="http://www.jacklmoore.com/colorbox/" class="large success button float-right">Documentation</a>
+                <div class="clearfix"></div>
+              </section>
+
+              <section id="Logo" data-magellan-target="Logo">
+                <img src="assets/img/Logo.png" alt="">
+              </section>
+
+              <section id="Color" data-magellan-target="Color">
+                <h2><strong>Color</strong></h2>
+                <div class="row up-1 medium-up-3 large-up-5">
+                  <div class="column">
+                    <div class="color-block">
+                      <span style="background: #202020"></span>
+                      #202020
+                      <p class="clr-txt">Background</p>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="color-block">
+                      <span style="background: #b33032"></span>
+                      #b33032
+                      <p class="clr-txt">Links</p>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="color-block">
+                      <span style="background: #d79f52"></span>
+                      #d79f52
+                      <p class="clr-txt">Navigation</p>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="color-block">
+                      <span style="background: #6f5d4f"></span>
+                      #6f5d4f
+                      <p class="clr-txt">Title</p>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="color-block">
+                      <span style="background: #9194b5"></span>
+                      #9194b5
+                      <p class="clr-txt">Title:hover</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section id="Typography" data-magellan-target="Typography">
+                <h2><strong>Typography</strong></h2>
+                <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;" data-auto-play="false">
+                  <ul class="orbit-container">
+                    <li class="is-active orbit-slide">
+                      <img class="orbit-image" src="assets/img/open-sans.png" alt="Archive">
+                      <figcaption class="orbit-caption">Open Sans</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/libre-baskerville.png" alt="Server">
+                      <figcaption class="orbit-caption">Libre Baskerville</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/source-code.png" alt="Server">
+                      <figcaption class="orbit-caption">Source Code Pro</figcaption>
+                    </li>
+                  </ul>
+                  <nav class="orbit-bullets">
+                    <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                  </nav>
+                </div>
+              </section>
+
+              <section id="Wireframe" data-magellan-target="Wireframe">
+                <h2><strong>Wireframe</strong></h2>
+                <div class="orbit" role="region" aria-label="Wireframe" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;" data-auto-play="false">
+                  <ul class="orbit-container">
+                    <li class="is-active orbit-slide">
+                      <img class="orbit-image" src="assets/img/landing.png" alt="Landing">
+                      <figcaption class="orbit-caption">Landing Page</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/nav-1.png" alt="Navigation">
+                      <figcaption class="orbit-caption">Navigation</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/nav-yr.png" alt="Year Navigation">
+                      <figcaption class="orbit-caption">Year Navigation</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/nav-pl.png" alt="Place Navigation">
+                      <figcaption class="orbit-caption">Place Navigation</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/nav-gn.png" alt="Genre Navigation">
+                      <figcaption class="orbit-caption">Genre Navigation</figcaption>
+                    </li>
+                  </ul>
+                  <nav class="orbit-bullets">
+                    <button class="is-active" data-slide="0"><span class="show-for-sr">Landing</span><span class="show-for-sr">Nav</span></button>
+                    <button data-slide="1"><span class="show-for-sr">Nav-1</span></button>
+                    <button data-slide="2"><span class="show-for-sr">Nav-2</span></button>
+                    <button data-slide="3"><span class="show-for-sr">Nav-3</span></button>
+                  </nav>
+                </div>
+              </section>
+
+              <section id="Reference" data-magellan-target="Reference">
+                <h2><strong>Reference</strong></h2>
+                <h4 class="subheader">Websites</h4>
+                <h4 class="subheader">Articles</h4>
+                <h4 class="subheader">Books</h4>
+                  <ol class="refs">
+                    <li>Berry, David M (2011) The philosophy of software: code and mediation in the digital age. Palgrave Macmillan, Basingstoke. ISBN 9780230244184</li>
+                    <hr>
+                    <li>Jacobson, Daniel, Brail, Greg and Woods, Dan (2012) APIs: A Strategy Guide. O'Reilly. ISBN 978-1-449-30892-6</li>
+                  </ol>
+              </section>
+
+
+            </div>
+          </div>
+        </div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
