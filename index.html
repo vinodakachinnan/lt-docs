@@ -14,7 +14,11 @@
         <header id="header" class="header">
           <div class="row">
             <div class="medium-11 large-7 large-push-4 columns">
-              <h1 class="text-right"><strong>Living Traditions: </strong>  <span class="subheader">Documentation</span></h1>
+              <h3 class="text-right"><strong>Living Traditions: </strong>  <span class="subheader">Documentation</span></h3>
+              <hr>
+              <h6 class="text-right description"><small>A Web Interface Project for India Foundation for the Arts & Asia Art Archive Archival Fellowship, 2015-2016</small></h6>
+              <a href="https://github.com/vinodakachinnan/living-traditions" target="_blank" class="float-right large button">Repository</a>
+              <div class="clearfix"></div>
             </div>
           </div>
         </header>
@@ -24,12 +28,11 @@
             <div class="top-bar">
               <div class="top-bar-title">
                 <h6><span class="subheader">Living Traditions:</span> <strong>Documentation</strong></h6>
+                <a href="https://github.com/vinodakachinnan/living-traditions" target="_blank" class="small button">Repository</a>
               </div>
             </div>
           </div>
         </div>
-
-
 
         <div class="row" id="content">
           <div class="medium-3 large-3 columns large-push-1 hide-for-small-only" data-sticky-container>
@@ -39,12 +42,13 @@
                 <li><a href="#API">API</a></li>
                 <li><a href="#Framework">Framework</a></li>
                 <li><a href="#Animation">Animation</a></li>
-                <li><a href="#Colorbox">Lightbox</a></li>
+                <li><a href="#Colorbox">Colorbox</a></li>
                 <li><a href="#Logo">Logo</a></li>
                 <li><a href="#Color">Color</a></li>
                 <li><a href="#Typography">Typography</a></li>
                 <li><a href="#Wireframe">Wireframe</a></li>
                 <li><a href="#Reference">Reference</a></li>
+                <li><a href="#Credits">Credits</a></li>
               </ul>
             </div>
           </div>
@@ -53,21 +57,26 @@
             <div class="sections content">
 
               <section id="About" data-magellan-target="About">
-                <p class="lead">Digital archive is only a pause between interfaces. The immediate interface before the web interface are the APIs created after the contents in the archive. This is still under process. So the web interface here goes partially hypothetical in the absence of a public API.</p>
-                <div class="orbit" role="region" aria-label="Archive" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-                  <ul class="orbit-container">
-                    <li class="is-active orbit-slide">
-                      <img class="orbit-image" src="assets/img/archive.jpg" alt="Archive">
-                      <figcaption class="orbit-caption">Archive</figcaption>
-                    </li>
-                    <li class="orbit-slide">
-                      <img class="orbit-image" src="assets/img/server.png" alt="Server">
-                      <figcaption class="orbit-caption">Server</figcaption>
-                    </li>
-                  </ul>
-                </div>
-                <h6><small>A cross look at the digital and traditional archives.</small></h6>
-                <p>My only assets were the experience of composition held in the chaotic studio process as an artist and the newbie of technology. A <i>problem</i> for me is not a solution seeking venture and it is definitely not the <i>nature</i> of a linear process of <i>programing</i>. The conflict of these two processes needed to discover a momentum that is already registered in the history of my creative process. A revisit to some of my works identified this in a new perspective.</p>
+                <p>My project involves designing and building a web interface prototype for Jyoti Bhatt’s photographic series ‘Living Traditions of India’. Over 30,000 photographs were taken by Jyoti Bhatt during four decades of his travel across villages, towns and cities in central and western India. His work contributes significantly to our understanding of Living Traditions as an artistic and cultural movement that dominated the modern Indian art ecology in the immediate decades following India’s political independence in 1947. These and other photographs, his artwork and texts by and on him, have been digitised and annotated by Asia Art Archive (AAA) as part of the Baroda Archives project.</p>
+                <p>One of AAA’s primary objectives is to make available as much of its digitised content available online via its website. This has meant that users access a large quantity of digitised images and documents via the standard interface designed for the AAA website. The present AAA website (as of December 2016) does not allow for an optimum viewing experience of images, nor does it allow easy navigation between folders and individual objects/items. However as we know, framing devices, contexts and interfaces significantly shape our experience of seeing and perceiving. My proposition via this project has been that the Living Traditions series of photographs by Bhatt demanded a customized interface that would allow viewers to navigate the vast quantities of images, while simultaneously comprehending the collection in its full complexity, depth and scale.</p>
+                <p>The project began by questioning the gap that is often assumed to exist between the developer and the designer. This is best evident in the workflow and division of work between designer and developer. However, this causes no small amount of disjuncture in the creative process and outcome. The challenges in making these two practices intersect are varied. For instance, digital information requires us to access technologies that are changing at an ever-increasing pace. This then recalibrates the work that interface designers have to undertake.</p>
+                <figure class="cd-image-container">
+                  <img src="assets/img/server.png" alt="Server">
+                  <span class="cd-image-label" data-type="original">Server</span>
+
+                  <div class="cd-resize-img"> <!-- the resizable image on top -->
+                    <img src="assets/img/archive.jpg" alt="Archive">
+                    <span class="cd-image-label" data-type="modified">Archive</span>
+                  </div>
+
+                  <span class="cd-handle"></span>
+                </figure> <!-- cd-image-container -->
+                <h6 class="text-right"><small>A cross look at the digital and traditional archives.</small></h6>
+                <p>The Living Traditions series consists of over 30,000 photographs. This poses the primary challenge in the design and structure of the interface. That is, for the interface to allude to the sheer volume of photographs in the collection, and at the same time, be accessible not as individual images but as sub-collections. These could then be categorised and browsed by year, place or genre.</p>
+                <p class="lead">The digital archive is only a pause between interfaces. The immediate interface for a digital collection before the web interface are the APIs created after the contents are digitised in/by the archive. In the case of the Jyoti Bhatt Archive at Asia Art Archive, this is still under process. So the prototype of the web interface here is partially hypothetical in the absence of a public API.</p>
+
+
+                <p>My main assets to develop this interface were the experience of composition held in the chaotic studio process as an artist and as someone who has recently been interested in technology. A problem for me is not a solution seeking venture and it is definitely not the nature of a linear process of programing. The conflict between these two processes demanded that I discover a momentum that is already registered in the history of my creative practice. A revisit to some of my works identified this in a new perspective.</p>
                 <div class="orbit" role="region" aria-label="Works" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;" data-auto-play="false">
                   <ul class="orbit-container">
                     <li class="is-active orbit-slide">
@@ -89,16 +98,15 @@
                     <button data-slide="2"><span class="show-for-sr">toandfro</span></button>
                   </nav>
                 </div>
-                <p>Project at the beginning was triggered by the photographer's contact sheets. This has the potential to convert elements on the filmstrip to <a href="https://en.wikipedia.org/wiki/User_interface">user interface(ui)</a>.</p>
+                <p>The design for my project at the beginning was triggered by the photographer's contact sheets. This has the potential to convert elements on the filmstrip to <a href="https://en.wikipedia.org/wiki/User_interface">user interface (ui)</a>. A contact sheet, as is known, is a piece of photographic paper onto which all the negatives or positives on a film have been contact printed. In other words, the contact sheet is not the photographic negative reel, but in fact a developed print; an image produced from film, akin to thumbnails. The defining characteristic of the contact print however, which sets it apart from developed photographic prints or thumbnails, is that the resulting print is the same size as the original (film), and not projected through an enlarger. In the case of Jyoti Bhatt, the contact sheets were an important part of the photographic process – containing the photographer’s marks, film details, and so on. They also lent themselves as visual devices to structure the interface. The wireframe for the interface therefore has drawn on the structure of the contact sheet as a base. These insights in using photographer’s contact sheet as the prime design motif of the navigation system were further confirmed after conversations with Jyoti Bhatt.</p>
                 <img src="assets/img/trigger.png" alt="">
                 <h6><small>Detail of Jyoti Bhatt's contact sheet from AAA.</small></h6>
-
-                <p>But the architecture of web layout is already changing and it is no more a direct translation of static layout models. The columns and the new <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flexbox</a> are addressing the responsive layout. One of the effective ways to put "Living Tradtions" series is into a grid layout. This also fall back to the <i>contact sheet</i> appearance. The content drives the layout. Few examples of of diplay which followed grid system is given below:</p>
+                <p>But the architecture of web layout is already changing and it is no more a direct translation of static layout models. The columns and the new <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flexbox</a> address the responsive layout. One of the effective ways of framing the "Living Traditions" series is by putting it into a grid layout. This also falls back to the contact sheet appearance. The content drives the layout. Few examples of diplay which followed grid system are provided below:</p>
                 <div class="orbit" role="region" aria-label="Grids" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;" data-auto-play="false">
                   <ul class="orbit-container">
                     <li class="is-active orbit-slide">
                       <img class="orbit-image" src="assets/img/Nazis.jpg" alt="The Nazis">
-                      <figcaption class="orbit-caption">Piotr Uklański, The Nazis, 1998, 164 chromogenic photographs, 14x10 in each</figcaption>
+                      <figcaption class="orbit-caption"><span class="secondary label">Piotr Uklański, The Nazis, 1998, 164 chromogenic photographs, 14x10 in each</span></figcaption>
                     </li>
                     <li class="orbit-slide">
                       <img class="orbit-image" src="assets/img/Black.jpg" alt="Black Drawings">
@@ -115,8 +123,7 @@
                     <button data-slide="2"><span class="show-for-sr">Jackies</span></button>
                   </nav>
                 </div>
-                <p>I realized there is no strict formula to design. I kept on moving from wireframes to frontend and reciprocating frequently. The design is also sensitive on colors and typography. At times they also took a central role in design. Finding a font is not a hunting rather is a process of inhabiting in the content.</p>
-                <p>Interface is designed to be device agnostic; it works with mouse, touch and motion events.</p>
+                <p class="lead">Interface is designed to be device agnostic; it works with mouse, touch and motion events.</p>
               </section>
 
               <section id="API" data-magellan-target="API">
@@ -133,14 +140,14 @@
                     </li>
                   </ul>
                 </div>
-                <h6><small>The definition of API super imposed with the trench kiss in "Ivans Childhood"</small></h6>
+                <h6><small>The definition of API superimposed with the trench kiss in "Ivans Childhood"</small></h6>
               </section>
 
               <section id="Framework" data-magellan-target="Framework">
                 <h2><strong>Framework</strong></h2>
                 <img src="assets/img/f6.png" alt="">
-                <p>Although this project do not use majority of features offered by the framework, it will be helpful for development stages to overcome hurdles of coding by the common structure provided by the framework.</p>
-                <a href="http://foundation.zurb.com/sites/docs/" class="float-right large success button">Documentation</a>
+                <p>Although this project does not use a majority of features offered by the framework, it will be helpful for development stages to overcome the hurdles of coding by making use of the common structure provided by the framework.</p>
+                <a href="http://foundation.zurb.com/sites/docs/" class="float-right success button">Documentation</a>
                 <div class="clearfix"></div>
               </section>
 
@@ -152,26 +159,38 @@
                   <li><strong>jQuery's $.animate()</strong> is slow and poorly-equipped for motion design.</li>
                   <li><strong>Velocity</strong> is a fast, feature-rich standalone alternative to jQuery's $.animate().</li>
                 </ul>
-                <a href="http://velocityjs.org/" class="large button success float-right">Velocity</a>
+                <a href="http://velocityjs.org/" class="button success float-right">Documentation</a>
                 <div class="clearfix"></div>
               </section>
 
               <section id="Colorbox" data-magellan-target="Colorbox">
-                <h2><strong>Lightbox</strong></h2>
                 <img src="assets/img/colorbox.png" alt="">
                 <p>Colorbox accepts settings from an object of key/value pairs, and can be assigned to any HTML element.</p>
-                <a href="http://www.jacklmoore.com/colorbox/" class="large success button float-right">Documentation</a>
+                <a href="http://www.jacklmoore.com/colorbox/" class="success button float-right">Documentation</a>
                 <div class="clearfix"></div>
               </section>
 
               <section id="Logo" data-magellan-target="Logo">
                 <h2><strong>Logo</strong></h2>
-                <img src="assets/img/Logo.png" alt="">
-                <a href="https://thenounproject.com/chinnan/collection/data/">Data Icons</a>
+                <p>Logo represents both the analogue and digital elements. Data is  viewed inside the aperture. A set of icons resulted in the  process of designing this logo.</p>
+                <div class="orbit" role="region" aria-label="Logo" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+                  <ul class="orbit-container">
+                    <li class="is-active orbit-slide">
+                      <img class="orbit-image" src="assets/img/logo.png" alt="Logo">
+                      <figcaption class="orbit-caption">Logo</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/data-icons.jpg" alt="Ivan's Childhood">
+                      <!-- <figcaption class="orbit-caption">Data icons, a side project."</figcaption> -->
+                    </li>
+                  </ul>
+                </div>
               </section>
 
               <section id="Color" data-magellan-target="Color">
                 <h2><strong>Color</strong></h2>
+                <p>Everything in the dark background focused on the images better. Dark as deep gray. There is no end to the selection of colors since this project do not suggest any pallette by itself. After many experiments I decided to bring it down with the colors on a film and the film roll. The present pallete is the result of refinement based on the choices above.</p>
+                <img src="assets/img/color.jpg" alt="">
                 <div class="row up-1 medium-up-3 large-up-5">
                   <div class="column">
                     <div class="color-block">
@@ -213,6 +232,8 @@
 
               <section id="Typography" data-magellan-target="Typography">
                 <h2><strong>Typography</strong></h2>
+                <p class="lead">I realized there is no strict formula to design. I kept moving from wireframes to the frontend, reciprocating frequently. The design is also sensitive to colours and typography. At times these also played a central role in design. Finding a font is not a hunting outwards but rather a process of inhabiting in the content.</p>
+
                 <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;" data-auto-play="false">
                   <ul class="orbit-container">
                     <li class="is-active orbit-slide">
@@ -234,6 +255,23 @@
                     <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
                   </nav>
                 </div>
+
+                <h4>Open Sans</h4>
+                <p><a href="https://fonts.google.com/specimen/Open+Sans">Open Sans</a> is the only font used entirely in the interface.</p>
+                <p>This humanist sans-serif typeface designed by Steve Matteson and released in 2011. The five weights with matching italics make Open Sans extremely versatile and useful for a wide range of applications. It is a ubiquitous font on the web, used by everyone from Google to WordPress. I’ve even heard it referred to as the “flat design” font. I like to think of Open Sans as the new Arial.
+                <cite><a href="https://www.typewolf.com/site-of-the-day/fonts/open-sans">typewolf</a></cite></p>
+
+                <h4>Libre Baskerville</h4>
+                <p><a href="https://fonts.google.com/specimen/Open+Sans">Libre Baskerville</a> is used in this documentation for the body text a;ong with Open Sans.</p>
+                <p>Libre Baskerville is an open-source serif typeface available for free from Google Fonts. It was designed by Pablo Impallari and based off of a version of Baskerville by American Type Founders from 1941. In my opinion, it’s one of the highest-quality serifs available from Google Fonts. Libre Baskerville is available in normal, italic and bold, but unfortunately there is no bold italic version.
+                <cite><a href="https://www.typewolf.com/site-of-the-day/fonts/libre-baskerville">typewolf</a></cite>
+                </p>
+
+                <h4>Source Code Pro</h4>
+                <p>This monotype font is used to render code snippets in the documentation.</p>
+                <p><a href="https://github.com/adobe-fonts/source-code-pro">Source Code Pro</a> is a set of OpenType fonts that have been designed to work well in user interface (UI) environments. In addition to a functional OpenType font, this open source project provides all of the source files that were used to build this OpenType font by using the AFDKO makeotf tool.
+                <cite><a href="https://github.com/adobe-fonts/source-code-pro">adobe</a></cite>
+                </p>
               </section>
 
               <section id="Wireframe" data-magellan-target="Wireframe">
@@ -241,31 +279,41 @@
                 <div class="orbit" role="region" aria-label="Wireframe" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;" data-auto-play="false">
                   <ul class="orbit-container">
                     <li class="is-active orbit-slide">
-                      <img class="orbit-image" src="assets/img/landing.png" alt="Landing">
-                      <figcaption class="orbit-caption">Landing Page</figcaption>
+                      <img class="orbit-image" src="assets/img/13-landing.jpg" alt="Landing">
+                      <figcaption class="orbit-caption grey">Landing Page</figcaption>
                     </li>
                     <li class="orbit-slide">
-                      <img class="orbit-image" src="assets/img/nav-1.png" alt="Navigation">
-                      <figcaption class="orbit-caption">Navigation</figcaption>
+                      <img class="orbit-image" src="assets/img/14-nav-1.jpg" alt="Navigation">
+                      <figcaption class="orbit-caption grey">Navigation</figcaption>
                     </li>
                     <li class="orbit-slide">
-                      <img class="orbit-image" src="assets/img/nav-yr.png" alt="Year Navigation">
-                      <figcaption class="orbit-caption">Year Navigation</figcaption>
+                      <img class="orbit-image" src="assets/img/15-nav-2.jpg" alt="Second Level Navigation">
+                      <figcaption class="orbit-caption grey">Second Level Navigation</figcaption>
                     </li>
                     <li class="orbit-slide">
-                      <img class="orbit-image" src="assets/img/nav-pl.png" alt="Place Navigation">
-                      <figcaption class="orbit-caption">Place Navigation</figcaption>
+                      <img class="orbit-image" src="assets/img/16-slide.jpg" alt="Slideshow">
+                      <figcaption class="orbit-caption grey">Slideshow</figcaption>
                     </li>
                     <li class="orbit-slide">
-                      <img class="orbit-image" src="assets/img/nav-gn.png" alt="Genre Navigation">
-                      <figcaption class="orbit-caption">Genre Navigation</figcaption>
+                      <img class="orbit-image" src="assets/img/17-info.jpg" alt="Informations">
+                      <figcaption class="orbit-caption grey">Informations</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/18-about.jpg" alt="About">
+                      <figcaption class="orbit-caption grey">About The Project</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="assets/img/19-jb.jpg" alt="Jyoti Bhatt">
+                      <figcaption class="orbit-caption grey">Prof. Jyoti Bhatt</figcaption>
                     </li>
                   </ul>
                   <nav class="orbit-bullets">
-                    <button class="is-active" data-slide="0"><span class="show-for-sr">Landing</span><span class="show-for-sr">Nav</span></button>
-                    <button data-slide="1"><span class="show-for-sr">Nav-1</span></button>
-                    <button data-slide="2"><span class="show-for-sr">Nav-2</span></button>
-                    <button data-slide="3"><span class="show-for-sr">Nav-3</span></button>
+                    <button class="is-active" data-slide="0"><span class="show-for-sr">Landing</span><span class="show-for-sr">Navigation</span></button>
+                    <button data-slide="1"><span class="show-for-sr">Second Level Navigation</span></button>
+                    <button data-slide="2"><span class="show-for-sr">Slideshow</span></button>
+                    <button data-slide="3"><span class="show-for-sr">Informations</span></button>
+                    <button data-slide="4"><span class="show-for-sr">About The Project</span></button>
+                    <button data-slide="5"><span class="show-for-sr">Prof. Jyoti Bhatt</span></button>
                   </nav>
                 </div>
               </section>
@@ -273,15 +321,66 @@
               <section id="Reference" data-magellan-target="Reference">
                 <h2><strong>Reference</strong></h2>
                 <h4 class="subheader">Websites</h4>
-                <h4 class="subheader">Articles</h4>
-                <h4 class="subheader">Books</h4>
                   <ol class="refs">
+                    <li><a href="https://www.moma.org/interactives/exhibitions/2012/cindysherman/">Cindy Sherman</a></li>
+                    <li><a href="http://publicdomain.nypl.org/pd-visualization/">NYPL visualization</a></li>
+                    <li><a href="http://dada-data.net/en/">dada-data</a></li>
+                    <li><a href="http://exhibitions.guggenheim.org/storylines/">StoryLines</a></li>
+                  </ol>
+                <h4 class="subheader">Articles</h4>
+                  <ol class="refs">
+                    <li><a href="http://maintainablecss.com/">Maintainable CSS</a></li>
+                    <li><a href="http://learnlayout.com/flexbox.html">Flexbox</a></li>
+                    <li><a href="http://martinfowler.com/bliki/MinimalInterface.html">Minimal Interface</a></li>
+                    <li><a href="http://cognitivemedium.com/tat/index.html">Thought as a Technology</a></li>
+                    <li><a href="https://bost.ocks.org/mike/simplify/">Line Simplification</a></li>
+                    <li><a href="http://bigthink.com/Picture-This/is-data-visualization-the-future-of-art">Is Data Visualization the Future of Art?</a></li>
+                    <li><a href="http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html">Generous Interfaces for Digital Cultural Collections</a></li>
+                  </ol>
+                <h4 class="subheader">Books</h4>
+                  <ol class="book-refs">
                     <li>Berry, David M (2011) The philosophy of software: code and mediation in the digital age. Palgrave Macmillan, Basingstoke. ISBN 9780230244184</li>
-                    <hr>
                     <li>Jacobson, Daniel, Brail, Greg and Woods, Dan (2012) APIs: A Strategy Guide. O'Reilly. ISBN 978-1-449-30892-6</li>
                   </ol>
               </section>
 
+              <section id="Credits" data-magellan-target="Credits">
+                <h2><strong>Credits</strong></h2>
+                <div class="row small-up-2 medium-up-3 large-up-4">
+                  <div class="column column-block">
+                    <ul class="no-bullet">
+                      <li>Sabih</li>
+                      <li>Sneha</li>
+                      <li>Suman</li>
+                      <li>Rashmimala</li>
+                    </ul>
+                  </div>
+                  <div class="column column-block">
+                    <ul class="no-bullet">
+                      <li>Michael</li>
+                      <li>Lynda</li>
+                      <li>David</li>
+                      <li>Vivian</li>
+                    </ul>
+                  </div>
+                  <div class="column column-block">
+                    <ul class="no-bullet">
+                      <li>Lokesh</li>
+                      <li>Avigna</li>
+                      <li>Santhosh</li>
+                      <li>Neha</li>
+                    </ul>
+                  </div>
+                  <div class="column column-block">
+                    <ul class="no-bullet">
+                      <li>Foundation 6</li>
+                      <li>velocity.js</li>
+                      <li>colorbox</li>
+                      <li>Github</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
 
             </div>
           </div>
